@@ -16,7 +16,7 @@ code {
 }
 
 #Imtext{
-  
+  text-decoration:underline;
 }
 .Tooltip{
   height: 60px;

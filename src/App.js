@@ -5,7 +5,7 @@ function App() {
   return (
     <>
      <Tooltip text={"Thanks for hovering! I'm a tooltip"}>
-     <span id='Imtext'>Hover over me!</span>
+     <span id='Imtext' disabled>Hover over me!</span>
      </Tooltip>
     </>
   );
