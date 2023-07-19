@@ -1,13 +1,12 @@
-import Tooltip from './Tooltip'
-import './index.css'
+import Tooltip from "./Tooltip";
+
+import React from "react";
 
 function App() {
   return (
-    <>
-     <Tooltip text={"Thanks for hovering! I'm a tooltip"}>
-     <span id='Imtext' disabled>Hover over me!</span>
-     </Tooltip>
-    </>
+    <div style={{height:200,width:200,background:'gray'}}>
+      <Tooltip />
+    </div>
   );
 }
 
